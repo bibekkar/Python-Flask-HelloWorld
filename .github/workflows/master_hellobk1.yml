@@ -33,5 +33,5 @@ jobs:
       with:
         app-name: 'hellobk1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d94d3bf4d6764bd0a82bd701db59ffc8 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_30cecbf02d8f4224a16404bcb6cfb998 }}
         package: './myapp.zip'
